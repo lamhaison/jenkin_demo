@@ -11,6 +11,9 @@ class BasicTestSuite(unittest.TestCase):
     def test_absolute_truth_and_meaning(self):
         assert True
 
+    def test_sum_method(self):
+        self.assertEqual(10, 5 +6)
+
 
 if __name__ == '__main__':
     unittest.main()
