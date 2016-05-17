@@ -7,3 +7,10 @@ def get_hmm():
 def hmm():
     """Contemplation..."""
     print get_hmm()
+
+def error_code():
+    """
+    :return:
+    """
+
+    print '%s' % (100, 200)
