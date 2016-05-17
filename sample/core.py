@@ -14,3 +14,6 @@ def error_code():
     """
 
     print '%s' % (100, 200)
+
+
+
