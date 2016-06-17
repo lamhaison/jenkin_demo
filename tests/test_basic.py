@@ -11,9 +11,9 @@ class BasicTestSuite(unittest.TestCase):
     def test_absolute_truth_and_meaning(self):
         assert True
 
-    # def test_error_code(self):
-    #     msg = 'test %s %s ' % 100
-    #     assert True
+    def test_error_code(self):
+         msg = 'test %s %s ' % 100
+         assert True
 
 
 
